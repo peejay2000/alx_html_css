@@ -1,0 +1,36 @@
+/* 1. Make <body> a flex container arranged in column */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensures full viewport height */
+  margin: 0;
+}
+
+/* 2. <main> is a flex container in row direction */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Allows it to grow and shrink as needed */
+}
+
+/* 3. Set layout ratio for article and aside */
+article {
+  flex: 2; /* Takes 2/3 of available width */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 1rem;
+  background-color: #f9f9f9; /* Optional for visibility */
+}
+
+aside {
+  flex: 1; /* Takes 1/3 of available width */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 1rem;
+  background-color: #e9e9e9; /* Optional for visibility */
+}
+
+/* Optional: Style header and footer */
+header,
+footer {
+  padding: 1rem;
+  background-color: #ddd;
+}
