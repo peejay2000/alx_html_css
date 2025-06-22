@@ -1,4 +1,30 @@
-header {
-   background-image: url(img/headphones_hero_1.jpg);
-   color: white;
+*{
+   box-sizing: border-box;
+
+}
+
+.text{
+   text-align: center;
+   color: #ffffff;
+   margin: auto;
+
+}
+
+
+.headset{
+   background-image: url("img/headphones_hero_1.jpg");
+   padding: 200px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ 
+}
+
+ul{
+   display: flex;
+   list-style: none;
+   
+}
+img{
+   max-block-size: 100px;
 }
