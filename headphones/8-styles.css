@@ -1,0 +1,10 @@
+img{
+    display: block;
+    max-inline-size: 100%;
+}
+footer{
+    background-image: url("img/headphones_hero_1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
